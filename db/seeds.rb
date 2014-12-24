@@ -26,3 +26,19 @@ Sunday	6:00 am – 4:00 pm",
 )
 
 Station.create(major: 1, minor: 0)
+
+
+
+Store.create(
+							name: "Union Square Cafe", 
+							address: "21 E. 16 ST, NYC 10003",
+							phone_number: "212-243-4020",
+							hours: "M-T 12pm-10pm, F 12pm-11pm
+Sat 11am-11pm, Sun 11am-10pm",
+							site_url: "http://unionsquarecafe.com/",
+							menu_url: "http://unionsquarecafe.com/menus/dinner/",
+							photo_url: "http://unionsquarecafe.com/about/restaurant/",
+							major: 2
+)
+
+Station.create(major: 2, minor: 0)
